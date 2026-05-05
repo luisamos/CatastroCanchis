@@ -33,7 +33,6 @@ class ViasImport implements OnEachRow, WithHeadingRow, WithBatchInserts, WithChu
         $codevia->tipo_via = $row['tipo_via'];
         $codevia->codi_via = $row['codi_via'];            
         $codevia->save();
-        
     }
 
     public function batchSize(): int
