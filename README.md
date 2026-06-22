@@ -1,9 +1,9 @@
-# CatastroCanchis
+# Catastro Canchis
 
 Sistema web de gestión catastral desarrollado en **Laravel 9** para administración de usuarios, roles, sectores, manzanas, vías, habilitaciones urbanas, fichas catastrales, reportes, exportación Excel y generación de documentos PDF.
 
 Este despliegue está orientado a **Windows + PostgreSQL**.
-No se utiliza phpMyAdmin ni MySQL.
+.
 
 ---
 
@@ -190,7 +190,6 @@ php artisan key:generate
 
 ## 8. Crear base de datos PostgreSQL
 
-No usar phpMyAdmin.
 La base se crea con `psql`, pgAdmin o DBeaver. Se recomienda usar `psql` para instalación técnica.
 
 ### 8.1. Ingresar a PostgreSQL
